@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  background: url(/images/droplets-purple.gif);
+  background-size: cover;
+}
+.main-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.main-contet {
+  display: flex;
+  align-items: center;
+  flex-basis: 40%;
+  justify-content: space-between;
+  border: 3px solid white;
+  border-radius: 32px;
+  padding: 5rem;
+}
+.main-content-txt {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+.main-content-score {
+  border: 3px white solid;
+  border-radius: 18px;
+  padding: 2rem;
+  text-align: center;
+}
+.main-content-txt1 {
+  color: whitesmoke;
+}
+.score-content {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.game-balls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  width: 400px;
+  column-gap: 3rem;
+  row-gap: 1.5rem;
+}
+.bame-balls-content {
+  color: whitesmoke;
+  border: 3px solid white;
+  border-radius: 60%;
+  padding: 3rem;
+}
